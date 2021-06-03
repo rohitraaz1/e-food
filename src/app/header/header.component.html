@@ -1,0 +1,39 @@
+<nav *ngIf="router.url !== '/login' && router.url !== '/signup'" class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><h1>e-<span class="text-success">Food</span></h1></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/home" routerLinkActive="active" aria-current="page" href="#">Home</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#steps" >Steps</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#" >Reviews</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+         </li>
+         <i class="fas fa-map-marker-alt mt-3"></i>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Choose Your Location
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" routerLink="/andheri" routerLinkActive="active"  href="#">Andheri</a></li>
+              <li><a class="dropdown-item" routerLink="/bandra" routerLinkActive="active" href="#">Bandra</a></li>
+              <li><a class="dropdown-item" routerLink="/borivali" routerLinkActive="active" href="#">Borivali</a></li>
+              <li><a class="dropdown-item" routerLink="/kandavali" routerLinkActive="active" href="#">Kandivali</a></li>
+            </ul>
+          </li>
+        </ul>
+        <span class="navbar-text d-flex">
+            <a class="nav-link" routerLink="/signup" routerLinkActive="active">Sign Up</a>
+        </span>
+      </div>
+    </div>
+  </nav>

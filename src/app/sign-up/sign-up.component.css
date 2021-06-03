@@ -1,0 +1,32 @@
+
+.row{
+    margin-top: 20px;
+}
+@media only screen and (max-width: 768px) {
+  img{
+    display: none;
+  }
+  #back{
+    background-color: aquamarine;
+  }
+}
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+  }
+  .form{
+    margin: 10px ;
+    background-color: #ffffff91;
+    border: 1px solid black;
+    opacity: 0.9;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: #333;
+  }
+  label{
+    font-weight: bold;
+    color: black;
+  }

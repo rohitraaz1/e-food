@@ -1,0 +1,9 @@
+h2{
+    margin-top: 5px;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+.thumbnail:hover {
+    transform: scale(0.90);
+}

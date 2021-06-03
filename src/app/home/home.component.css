@@ -1,0 +1,11 @@
+
+.row{
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 600px) {
+    .size{
+        width: 700px;
+        height: 400px;
+    }
+}
